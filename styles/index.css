@@ -162,6 +162,7 @@ nav ul a{
     }
     .hero{
         flex-direction: column;
+        margin: 20px;
     }
     .hero-div1{
         width: 100%;
