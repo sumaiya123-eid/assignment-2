@@ -9,7 +9,7 @@ body{
 .shape{
     font-family: 'Miama', sans-serif;
     font-weight: 400;
-    font-size: 8rem;
+    font-size: 5rem;
 }
 header{
     max-width: 1440px;
@@ -157,11 +157,11 @@ nav ul a{
         margin-bottom: 60px;
     }
     .hero-div2{
-        width: 170%; 
-        margin-left: 50px;
+        width: 100%;
     }
     .hero-div2 img{
-        width: 30%;
+        width: 70%;
+        left: 60px;
     }
     .hero-title{
         font-size: 2.5rem;
@@ -170,14 +170,14 @@ nav ul a{
         display: flex;
     }
     .img-btn{
-        top: 180px;
-        left: 180px;
+        top: 200px;
+        left: 60px;
         width: 120px;
         height: 58px;
     }
     .img-btn2{
-        top: 80px;
-        left: 320px;
+        top: 60px;
+        left: 250px;
         width: 130px;
         height: 70px;
     }
