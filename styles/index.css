@@ -147,6 +147,38 @@ nav ul a{
 .span2{
     font-size: 2.5rem;
 }
+.habit-section{
+    text-align: center;
+    max-width: 1044px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.habit-title{
+    margin-bottom: 0px;
+}
+.habit-description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.round-img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.img-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.habit-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    gap: 10px;
+}
 .hide{
     display: none;
 }
@@ -200,5 +232,12 @@ nav ul a{
     }
     .circle-btn{
         gap: 0px;
+    }
+    .habit-section{
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+    .habit-card{
+        grid-template-columns: repeat(1,1fr);
     }
 }
