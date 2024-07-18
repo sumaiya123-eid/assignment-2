@@ -202,6 +202,63 @@ nav ul a{
     border-radius: 18px;
     margin: 10px 70px 0px 0px;
 }
+.bmi{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.bmi-div{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(34, 34, 34);
+    padding-bottom: 50px;
+}
+.bmi-heading{
+    padding: 60px 300px 60px 300px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+.bold{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.bmi-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.input-1,select{
+    width: 282.5px;
+height: 30px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+padding: 12px 40px 12px 20px;
+}
+select{
+    width: 342px;
+    height: 55px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.div1{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.div2 select{
+    width: 695px;
+    margin-bottom: 12px;
+}
 .hide{
     display: none;
 }
@@ -279,5 +336,23 @@ nav ul a{
     .run-sec-div1 button{
         width: 100%;
     }
-   
+   .bmi-div{
+    flex-direction: column;
+   }
+   .bmi-div{
+    padding: 20px;
+   }
+   .input-1{
+    width: 90px;
+height: 20px;
+   }
+   select{
+    width: 150px;
+    height:45px ;
+   }
+   .div2 select{
+    width: 310px;
+}
+.bmi-heading{
+    padding: 0px 0px 0px 10px;
 }
