@@ -1,16 +1,13 @@
+/* inter font style  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* miama font style */
 @import url('https://fonts.cdnfonts.com/css/miama');
-
+/* body style */
 body{
     font-family: "Inter", sans-serif;
     background-color:rgb(0, 0, 0);
 }
-.shape{
-    font-family: 'Miama', sans-serif;
-    font-weight: 400;
-    font-size: 5rem;
-}
+/* header section styles */
 header{
     max-width: 1440px;
     margin: 0 auto;
@@ -21,12 +18,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 30px 130px;
-}
-nav h3{
-    color: rgb(230, 83, 60);
-    font-size: 2.25rem;
-    font-weight: 800;
-    line-height: 40%;
 }
 nav ul{
     display: flex;
@@ -54,13 +45,66 @@ nav ul a{
 }
 .hero{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    
+    padding-left: 150px; 
 }
 .hero-div1{
     width: 520px;
     height: 440px;
+}
+.hero-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.img-btn{
+    margin-top: 380px;
+    margin-left: -470px;
+}
+.img-btn2{
+    margin-bottom: 200px;
+    margin-left: -110px;
+}
+.img-btn,.img-btn2{
+    width: 175px;
+    height: 68px;
+    background: rgba(48, 48, 48, 0.55);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+.img-btn2{
+    width: 190px;
+    height: 95px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.circle-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+}
+/* shared styles */
+nav h3,footer h3{
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 40%;
 }
 .hero-title{
     color: rgb(255, 255, 255);
@@ -85,73 +129,19 @@ nav ul a{
     font-size: 1.125rem;
     font-weight: 600;
     margin-right: 10px;
+    cursor: pointer;
 }
 .btn{
     border: 1px solid rgb(255, 255, 255);
     background-color: black;
-}
-.hero-div2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 520px;
-    height: 440px;
-    position: relative;
-}
-.hero-div2 img{
-    position: absolute;
-    left: 200px;
-}
-.img-btn{
-    position: absolute;
-    top: 400px;
-    left: 80px;
-}
-.img-btn2{
-    position: absolute;
-    top: 50px;
-    left: 450px;
-}
-.img-btn,.img-btn2{
-    width: 175px;
-    height: 68px;
-    background: rgba(48, 48, 48, 0.55);
-    backdrop-filter: blur(20px);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    font-size: 1rem;
-    font-weight: 400;
-    color: rgba(239, 237, 232, 0.65);
 }
 .span1,.span2{
     font-size: 1.5rem;
     font-weight: 900;
     color: rgb(250, 250, 249);
 }
-.circle{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(230, 83, 60);
-    border-radius: 50%;
-}
-.circle-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-.img-btn2{
-    width: 190px;
-    height: 95px;
-}
 .span2{
     font-size: 2.5rem;
-}
-.habit-section{
-    text-align: center;
-    max-width: 1044px;
-    margin: 0 auto;
-    margin-top: 150px;
 }
 .habit-title{
     margin-bottom: 0px;
@@ -160,6 +150,16 @@ nav ul a{
     font-size: 0.8rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+}
+.hide{
+    display: none;
+}
+/* habit section styles */
+.habit-section{
+    text-align: center;
+    max-width: 1044px;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 .round-img{
     border-radius: 50%;
@@ -179,6 +179,7 @@ nav ul a{
     margin-top: 50px;
     gap: 10px;
 }
+/* run section styles */
 .run-section{
     background: rgb(34, 34, 34);
     border-radius: 18px;
@@ -188,8 +189,7 @@ nav ul a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 140px;
-    
+    gap: 140px;   
 }
 .run-sec-div1{
     width: 80%;
@@ -202,6 +202,7 @@ nav ul a{
     border-radius: 18px;
     margin: 10px 70px 0px 0px;
 }
+/* bmi section styles */
 .bmi{
     max-width: 1440px;
     margin: 0 auto;
@@ -259,6 +260,7 @@ select{
     width: 695px;
     margin-bottom: 12px;
 }
+/* our team section styles */
 .our-team{
     width: 80%;
     margin: 0 auto;
@@ -288,13 +290,51 @@ select{
 .trainer-card{
    margin-bottom: 40px;
 }
-.trainer-div img{
-    
-    border-radius: 18px;
-    
+.trainer-div img{ 
+    border-radius: 18px;  
 }
-.hide{
-    display: none;
+/* footer section styles */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+}
+footer h3{
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer li{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+footer h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-p{
+    text-align: center;
+    padding-bottom: 35px;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 1059.5px;
+    margin-top: 50px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-list{
+    display: flex;
+    gap: 80px;
 }
 @media  screen and (max-width:576px) {
     .hiden{
@@ -307,19 +347,21 @@ select{
         margin: 10px;
     }
     nav ul{
-        border: none;
+        border: 0px;
     }
     .hero{
         flex-direction: column;
-        margin: 10px;
+        margin: 10px; 
+        padding-left: 0px;
     }
     .hero-div1{
         width: 100%;
-        height:120%;
+        height: 70%;
         margin-bottom: 60px;
     }
     .hero-div2{
         width: 100%;
+        display: flex;
     }
     .hero-div2 img{
         width: 70%;
@@ -333,20 +375,31 @@ select{
     }
     
     .img-btn{
-        top: 180px;
-        left: 40px;
-        width: 120px;
-        height: 70px;
+        /* margin-top: -200px; */
+        margin-top: 10px;
+        margin-left: -220px;
+        width: 100px;
+        height: 50px;
+        font-size: 0.6rem;
     }
     .img-btn2{
-        top:40px;
-        left: 180px;
-        width: 130px;
-        height: 80px;
+        margin-left: -80px; 
+        margin-bottom:220px ;
+        width: 110px;
+        height: 60px;
+        font-size: 0.6rem;
+    }
+    .circle{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
     }
     .span2{
-        font-size:1.5rem ;
+        font-size:1.1rem ;
         font-weight: 800;
+    }
+    .span1{
+        font-size: 0.8rem;
     }
     .circle-btn,.trainer-div{
         gap: 0px;
@@ -398,5 +451,29 @@ height: 20px;
 }
 .trainer-div img{
     width: 100%;
+}
+.footer-div,.footer-list,.footer-heading{
+    flex-direction: column;
+    gap: 0px;
+    margin: 10px;
+}
+.footer-heading p{
+    margin-bottom: 0px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+}
+hr{
+    width: 250px;
+}
+footer h4{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+footer h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    margin-top: 30px;
 }
 }
