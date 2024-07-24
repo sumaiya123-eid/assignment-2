@@ -17,7 +17,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 130px;
+    margin: 0px 130px;
+    padding-top: 30px;
 }
 nav ul{
     display: flex;
@@ -26,7 +27,7 @@ nav ul{
     gap: 40px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
-    padding: 5px;
+    padding: 5px 10px;
 }
 nav ul a{
     text-decoration: none;
@@ -37,8 +38,8 @@ nav ul a{
 .home{
     background-color:rgb(230, 83, 60);
     border-radius: 46px;
-    width: 90px;
-    height: 35px;
+    width: 100px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +98,8 @@ nav ul a{
 .shape{
     font-family: 'Miama', sans-serif;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 8rem;
+    /* letter-spacing: 1.5px; */
 }
 /* shared styles */
 nav h3,footer h3{
@@ -200,21 +202,32 @@ nav h3,footer h3{
 .run-img{
     width: 90%;
     border-radius: 18px;
-    margin: 10px 70px 0px 0px;
+    margin: 0px 200px 0px 0px;
+    
+}
+.run-section button{
+    margin-top: 20px;
+}
+.run-section p{
+    letter-spacing: 0.5px;
 }
 /* bmi section styles */
 .bmi{
     max-width: 1440px;
     margin: 0 auto;
 }
-.bmi-div{
+.bmi-div{ 
     display: flex;
     justify-content: space-around;
-    background: rgb(34, 34, 34);
+    background: rgb(34, 34, 34); 
     padding-bottom: 50px;
 }
+.input1{ 
+    width: 100%;
+    height: 100%;
+}
 .bmi-heading{
-    padding: 60px 300px 60px 300px;
+    padding: 60px 300px 60px 530px;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -236,16 +249,24 @@ td{
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
 }
-.input-1,select{
-    width: 282.5px;
+.input-1,select,textarea{ 
+    width: 50%;
 height: 30px;
 border-radius: 8px;
 background: rgba(255, 255, 255, 0.1);
 border: none;
 padding: 12px 40px 12px 20px;
 }
-select{
-    width: 342px;
+textarea{
+    width: 89%;
+    height: 60px;
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+ select{
+    width: 63%;
     height: 55px;
     font-size: 0.8rem;
     font-weight: 400;
@@ -257,7 +278,7 @@ select{
     margin-bottom: 12px;
 }
 .div2 select{
-    width: 695px;
+    width: 100%;
     margin-bottom: 12px;
 }
 /* our team section styles */
@@ -293,6 +314,7 @@ select{
 .trainer-div img{ 
     border-radius: 18px;  
 }
+
 /* footer section styles */
 footer{
     max-width: 1440px;
@@ -367,15 +389,21 @@ hr{
         width: 70%;
         left: 40px;
     }
-    .hero-title{
+    .hero-title,.run-sec-div1 h4,.bmi h4{
         font-size: 2.5rem;
+    }
+    .habit-section h4,.our-team h4{
+        font-size: 2rem;
+    }
+    header p,.habit-section p,.run-section p,.bmi p,.our-team p
+    {
+        font-size: 1rem; 
     }
     .btn2{
         display: flex;
     }
     
     .img-btn{
-        /* margin-top: -200px; */
         margin-top: 10px;
         margin-left: -220px;
         width: 100px;
@@ -393,6 +421,9 @@ hr{
         width: 20px;
         height: 20px;
         margin-right: 5px;
+    }
+    .shape{
+        font-size: 5rem;
     }
     .span2{
         font-size:1.1rem ;
@@ -433,15 +464,18 @@ hr{
     padding: 20px;
    }
    .input-1{
-    width: 90px;
+    width: 100%;
 height: 20px;
    }
    select{
-    width: 150px;
+    width: 117%;
     height:45px ;
    }
    .div2 select{
-    width: 310px;
+    width: 100%;
+}
+textarea{
+    width: 82%;
 }
 .bmi-heading{
     padding: 0px 0px 0px 10px;
@@ -467,7 +501,7 @@ hr{
 }
 footer h4{
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
 }
 footer h3{
     padding-top: 20px;
