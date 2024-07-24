@@ -29,7 +29,7 @@ nav ul{
     border-radius: 40px;
     padding: 5px 10px;
 }
-nav ul a{
+nav ul a,.recipes-card a,.see-more a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
@@ -314,7 +314,52 @@ textarea{
 .trainer-div img{ 
     border-radius: 18px;  
 }
-
+/* healthy-recipes section styles */
+.recipes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding-top: 50px;
+}
+.recipes-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    border-radius: 18px;
+    padding: 30px;
+}
+.healthy-recipes{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.healthy-recipes h3,.healthy-recipes p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.recipes-card img{
+         width: 100%;
+         border-radius: 18px;
+}
+.recipes-card p{
+    margin-bottom: 0px;
+    text-align: center;
+}
+.recipes-card button{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+}
+.see-more a{  
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.see-more{
+    margin-top: 30px;
+}
 /* footer section styles */
 footer{
     max-width: 1440px;
@@ -486,6 +531,31 @@ textarea{
 .trainer-div img{
     width: 100%;
 }
+.recipes{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 20px;
+}
+.healthy-recipes h3,.healthy-recipes h4{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.healthy-recipes h3{
+    font-size: 1.7rem;
+}
+.healthy-recipes p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+.healthy-recipes{
+    margin-top: 30px;
+}
+.recipes-card{
+    padding: 20px;
+}
+
 .footer-div,.footer-list,.footer-heading{
     flex-direction: column;
     gap: 0px;
