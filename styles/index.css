@@ -5,7 +5,7 @@
 /* body style */
 body{
     font-family: "Inter", sans-serif;
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0); 
 }
 /* header section styles */
 header{
@@ -17,7 +17,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 130px;
+    margin: 0px 150px;
     padding-top: 30px;
 }
 nav ul{
@@ -227,9 +227,12 @@ nav h3,footer h3{
     height: 100%;
 }
 .bmi-heading{
-    padding: 60px 300px 60px 530px;
+    padding: 60px 450px 60px 520px;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+.bmi-p{
+    margin-bottom: 30px;
 }
 table{
     border-collapse: collapse;
@@ -444,6 +447,9 @@ hr{
     {
         font-size: 1rem; 
     }
+    .bmi h5{
+        font-size: 1.3rem;
+    }
     .btn2{
         display: flex;
     }
@@ -467,6 +473,9 @@ hr{
         height: 20px;
         margin-right: 5px;
     }
+    .play-icon{
+        margin-left: -22.5px;
+    }
     .shape{
         font-size: 5rem;
     }
@@ -477,8 +486,11 @@ hr{
     .span1{
         font-size: 0.8rem;
     }
-    .circle-btn,.trainer-div{
+    .trainer-div{
         gap: 0px;
+    }
+    .trainerdiv{
+        margin-top: 30px;
     }
     .habit-section{
         margin-top: 0px;
