@@ -204,8 +204,7 @@ nav h3,footer h3{
 .run-img{
     width: 90%;
     border-radius: 18px;
-    margin: 0px 200px 0px 0px;
-    
+    margin: 0px 200px 0px 0px;    
 }
 .run-section button{
     margin-top: 20px;
@@ -511,9 +510,16 @@ hr{
     .run-sec-div1{
         margin: 0px 0px 0px 0px;
     }
-    .run-img{
+    .runimg{
         width: 90%;
-        margin: 0px 0px 20px 20px;
+        margin: 0 auto;
+    }
+    .run-img2{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 35px;
+        border-radius: 18px;   
     }
     .run-sec-div1 button{
         width: 100%;
