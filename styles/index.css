@@ -308,7 +308,7 @@ textarea{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 22px;
     border-radius: 18px;
 
 }
@@ -553,6 +553,9 @@ textarea{
 .trainer-div img{
     width: 100%;
 }
+.trainer-card{
+    margin-bottom: 30px;
+ }
 .recipes{
     grid-template-columns: 1fr;
     gap: 20px;
